@@ -8,7 +8,11 @@ $ mvn clean package
 [INFO] Building war: /home/target/payara-micro-with-spring-boot-rest-1.0.war
 ```
 
-Deploy to Glassfish/Payara, then test the Metrics Endpoint:
+## Deploy
+
+Deploy to Glassfish/Payara, then test the Metrics Endpoint
+
+## Test
 
 ```
 $ curl -s http://domain.com:8080/payara-micro-with-spring-boot-rest-1.0/metrics | python -m json.tool
