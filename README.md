@@ -50,4 +50,9 @@ To get all the endpoints:
 $ curl http://domain.com:8080/payara-micro-with-spring-boot-rest-1.0/mappings | python -m json.tool
 ```
 
-Thanks to [Payara Team](http://blog.payara.fish/creating-rest-web-services-with-spring-boot-hosted-on-payara-micro)
+## Examples:
+- https://stormpath.com/blog/5-practical-tips-for-building-your-spring-boot-api
+- https://www.mkyong.com/spring-mvc/spring-3-rest-hello-world-example/
+
+
+Thanks to [Payara Team](http://blog.payara.fish/creating-rest-web-services-with-spring-boot-hosted-on-payara-micro) and [Spring Boot Docs](https://spring.io/guides/gs/spring-boot/)
